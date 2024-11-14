@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f0f0f0 !important;
+}
+
+.container-wrapper {
+  @apply container mx-auto max-w-5xl px-2;
+}
+
+.apply-center {
+  @apply flex justify-center items-center
+}
+
+.avatar:hover .logout {
+  display: block !important;
+}

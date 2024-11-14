@@ -7,7 +7,6 @@ export default function Navbar() {
   const navigate = useNavigate();
   let { pathname } = useLocation();
 
-  console.log({pathname})
   const handleLogout = () => {
     setToken();
     navigate("/", { replace: true });

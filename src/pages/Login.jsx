@@ -6,7 +6,7 @@ import { useEffect } from "react";
 const Login = () => {
   const { token, setToken } = useAuth();
   const navigate = useNavigate();
-console.log({token})
+  
   useEffect(() => {
     if (token) {
       navigate("/dashboard", { replace: true });
